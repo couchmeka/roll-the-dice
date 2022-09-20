@@ -27,7 +27,7 @@ if (userPrompt === 6)
 
 } else if (userPrompt === 4)
 {
-    let dicePrompt = Math.ceil(Math.random()*6);
+    let dicePrompt = Math.ceil(Math.random()*8);
 
 
     if (dicePrompt === 7 || dicePrompt === 8)
@@ -38,7 +38,7 @@ if (userPrompt === 6)
 
 } else if (userPrompt === 3)
 {
-    let dicePrompt = Math.ceil(Math.random()*6);
+    let dicePrompt = Math.ceil(Math.random()*8);
 
 
     if (dicePrompt === 7 || dicePrompt === 8)
@@ -48,7 +48,7 @@ if (userPrompt === 6)
     } else { console.log(dicePrompt)}
 }else if (userPrompt === 2)
 {
-    let dicePrompt = Math.ceil(Math.random()*6);
+    let dicePrompt = Math.ceil(Math.random()*8);
 
 
     if (dicePrompt === 7 || dicePrompt === 8)
@@ -58,7 +58,7 @@ if (userPrompt === 6)
     } else { console.log(dicePrompt)}
 } else if (userPrompt === 1)
 {
-    let dicePrompt = Math.ceil(Math.random()*6);
+    let dicePrompt = Math.ceil(Math.random()*8);
 
 
     if (dicePrompt === 7 || dicePrompt === 8)
